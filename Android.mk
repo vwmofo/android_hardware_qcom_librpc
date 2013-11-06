@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-ifeq ($(TARGET_BOARD_PLATFORM),msm7x30)
+ifeq ($(TARGET_BOARD_PLATFORM),msm8660)
     include $(call all-named-subdir-makefiles,librpc)
 endif
